@@ -12,11 +12,11 @@
           img(src='@/assets/template/tema-1-1.png', alt='Texto que describa la imagen').floating
       .col-12.col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
-          p Hoy por hoy,  se evidencia la existencia del big data, de cloud computing, de networking y otros términos que hacen parte del manejo automatizado de la información, es así, que el término “metadatos”, se vuelve imprescindible en la actualidad. Puede tener varias definiciones, pero en concreto se relaciona con el manejo de grandes cantidades de información que crecen de manera exponencial, caracterizándose por describir la estructura, clasificación, parámetros, condiciones, etc. de los datos o recursos para facilitar su identificación, preservación y/o interoperabilidad.
+          p Hoy por hoy,  se evidencia la existencia del <i>big data</i>, de <i>cloud computing</i>, de <i>networking</i> y otros términos que hacen parte del manejo automatizado de la información, es así, que el término “metadatos”, se vuelve imprescindible en la actualidad. Puede tener varias definiciones, pero en concreto se relaciona con el manejo de grandes cantidades de información que crecen de manera exponencial, caracterizándose por describir la estructura, clasificación, parámetros, condiciones, etc., de los datos o recursos para facilitar su identificación, preservación y/o interoperabilidad.
     .row.mt-4
       .col-12.col-lg-10.col-xl-11
-        p A los documentos físicos o electrónicos se le establecen metadatos mínimos obligatorios para la preservación de su vida útil, permitiendo reconocer las actividades y procesos realizados utilizando diferentes mecanismos.
-        p.mt-3 En la gestión de documentos se debe hacer una adecuada aplicación de los metadatos, el cual se realiza de la siguiente forma:
+        p A los documentos físicos o electrónicos se les establecen metadatos mínimos obligatorios para la preservación de su vida útil, permitiendo reconocer las actividades y procesos realizados utilizando diferentes mecanismos.
+        p.mt-3 En la gestión de documentos se debe hacer una adecuada aplicación de los metadatos, la cual se realiza de la siguiente forma:
       .col-2.col-xl-1.d-none.d-lg-flex.align-self-center
         figure
           img(src='@/assets/template/tema-1-2.svg', alt='Texto que describa la imagen').floating.px-3.px-xl-0
@@ -73,31 +73,33 @@
         ul.lista-ul.mt-3
           li 
             i.fas.fa-angle-right
-            | Familia de normas ISO 23081. Information and documentation. Records management processes. Metadata for records.
+            | <p>Familia de normas ISO 23081. <em>Information and documentation. Records management processes. Metadata for records.</em></p>
           li 
             i.fas.fa-angle-right
-            | Australian Recordkeeping Metadata Schema (RKMS). 
+            | <i>Australian Recordkeeping Metadata Schema (RKMS).</i> 
           li 
             i.fas.fa-angle-right
-            | Australian Government Recordkeeping Metadata Standard (AGRkMS).
+            | <i>Australian Government Recordkeeping Metadata Standard (AGRkMS).</i>
           li 
             i.fas.fa-angle-right
-            | Esquema de metadatos para la gestión del documento electrónico (e- EMGDE) desarrollado por la Dirección General de Modernización Administrativa del Ministerio de Hacienda y Administraciones Públicas de España.
+            | Esquema de metadatos para la gestión del documento electrónico (e-EMGDE) desarrollado por la Dirección General de Modernización Administrativa del Ministerio de Hacienda y Administraciones Públicas de España.
         p.mt-4 Según la norma del estándar Dublin Core y METS, estos serían los metadatos mínimos obligatorios siguiendo la estructura que deben contener los expedientes que los conforman para su identificación, autenticación y contextualización, ver tabla 1:
       .col-4.d-none.d-lg-flex.align-self-center
         figure
           img(src='@/assets/template/tema-1-5.svg', alt='Texto que describa la imagen').floating
     .row.mt-5
       .col-10.offset-1  
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-botones
           h5 Tabla 1
           p.text-small Metadatos mínimos
-        .tabla-a.color-acento-botones.mb-5 
+        .tabla
+          h4.text-center.mt-5 METADATOS BASADOS EN ESTÁNDARES 
+        .tabla-a.color-acento-contenido.mb-5 
           table
-            caption.mt-3 Referencia Nota. ICFES (2018).
+            caption.mt-3 Nota. ICFES (2018).
             thead
               tr
-                th(style="width:10%;") No.
+                th(style="width:10%;") N°.
                 th Nombre
                 th Estructura XML / Etiqueta
                 th(colspan="2") Obligatoriedad
@@ -107,21 +109,21 @@
                 td 1
                 td Título
                 td &#60;Title&#62;
-                td 0
+                td O
                 td Elemento obligatorio
                 td Normalmente el título es el nombre por el que se conoce formalmente el recurso (expediente).
               tr
                 td 2
                 td Autor
                 td &#60;Creator&#62;
-                td 0
+                td O
                 td Elemento obligatorio
                 td Autor personal o entidad responsable del contenido del recurso (expediente).
               tr
                 td 3
                 td Fecha
                 td &#60;Date&#62;
-                td 0
+                td O
                 td Elemento obligatorio
                 td Fecha clave del recurso (creación de expediente).
               tr
@@ -163,9 +165,9 @@
                 td 9
                 td Formato
                 td &#60;Format&#62;
-                td 0
+                td O
                 td Elemento obligatorio
-                td Formato del recurso (tamaño, duración, software, hardware necesario para su reproducción, etc.).
+                td Formato del recurso (tamaño, duración, <i>software</i>, <i>hardware</i> necesario para su reproducción, etc.).
               tr
                 td 10
                 td Fuente
@@ -179,7 +181,7 @@
                 td &#60;Rights&#62;
                 td Opt
                 td Elemento optativo
-                td Derechos de autor que afectan al recurso (copyright, IPR, etc.).
+                td Derechos de autor que afectan al recurso (<i>copyright</i>, IPR, etc.).
               tr
                 td 12
                 td Identificador
@@ -198,7 +200,7 @@
                 td 14
                 td Relación
                 td &#60;Relation&#62;
-                td 0
+                td O
                 td Elemento obligatorio
                 td Otro recurso relacionado con el que se describe (referencia cruzada).
               tr
@@ -210,7 +212,7 @@
                 td Periodo de tiempo o lugar geográfico sobre los que trata el recurso.
     .h4.mt-5 Tipología de los metadatos 
     p.mt-5 Existen diferentes tipos de metadatos y cada uno tiene su diferente formato y formas de describirlos. Según la información que proporcionen se pueden clasificar en (Ecured, 2021): 
-    .row.justify-content-center(data-aos="fade-down").mt-5.text-white
+    .row.justify-content-center(data-aos="fade-down").mt-5
       .col-10.col-lg-4
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
@@ -238,7 +240,7 @@
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1.mt-1.mt-md-4.mt-lg-3.mt-xl-4.pt-md-0
                 .h4.small-text.mt-1.mt-md-0 ADMINISTRATIVOS 
-                p.mt-3.small-text Facilitan la gestión de conjunto de recursos incluyendo la gestión de derechos y control de acceso y uso.
+                p.mt-3.small-text Facilitan la gestión del conjunto de recursos, incluyendo la gestión de derechos y control de acceso y uso.
     .row.mt-5
       .col-12.col-lg-8
         .h4 Autenticidad de los metadatos
@@ -246,7 +248,7 @@
         LineaTiempoD.color-secundario.mt-5
           p.text-small(numero="1" titulo="CONTEXTO") Tiene que ver con la actividad y con la entidad, por cuanto la actividad “per-se” sin un contexto administrativo identificable quedaría incompleta. 
           
-          p.text-small(numero="2" titulo="ESTRUCTURA") Tiene que ver con la forma documental fija o la presentación del contenido, que en gran medida está dada por el software y hardware.
+          p.text-small(numero="2" titulo="ESTRUCTURA") Tiene que ver con la forma documental fija o la presentación del contenido, que en gran medida está dada por el <i>software</i> y <i>hardware</i>.
 
           p.text-small(numero="3" titulo="CONTENIDO") Es la materia del documento. Tiene que ver con el entorno en el cual ha sido creado el documento de acuerdo con el marco jurídico, administrativo, procedimental y documental de la entidad, para lo cual se tendrán en cuenta los metadatos que permitan demostrar su procedencia
           
@@ -261,35 +263,35 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-1-10.svg')})`}")
             .tarjeta-flip__contenido.p-4
-              p.py-4 El Sistema de información y hardware necesario para su representación.
+              p.py-4 1. El sistema de información y <i>hardware</i> necesario para su representación.
       .col-sm-6.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-1-11.svg')})`}")
             .tarjeta-flip__contenido.p-4
-              p.py-4 El Sistema de información y hardware necesario para su representación.
+              p.py-4 2. Que el documento es lo que afirma ser.
       .col-sm-6.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-1-12.svg')})`}")
             .tarjeta-flip__contenido.p-4
-              p  El conocimiento de la persona que lo ha hecho, enviado, verificado y firmado, al igual, exista evidencia de la persona a quien se le distribuya el documento.
+              p  3. El conocimiento de la persona que lo ha hecho, enviado, verificado y firmado, al igual, exista evidencia de la persona a quien se le distribuya el documento.
       .col-sm-6.mb-4.offset-lg-2.offset-xl-0
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-1-13.svg')})`}")
             .tarjeta-flip__contenido.p-4
-              p El documento debe haber sido creado o enviado en el mismo momento en que se afirma.
+              p 4. El documento debe haber sido creado o enviado en el mismo momento en que se afirma.
       .col-sm-6.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-1-14.svg')})`}")
             .tarjeta-flip__contenido.p-4
-              p.py-4 El documento debe haber sido creado o enviado en el mismo momento en que se afirma.
+              p.py-4 5. No debe tener alteraciones, debe ser verídico, el documento debe ser igual.
     .h4.mt-5 Diseño de un esquema de metadatos
     .row.mt-5
       .col-5.d-none.d-lg-flex
@@ -297,7 +299,7 @@
           img(src="@/assets/template/tema-1-19.svg", alt="Texto que describa la imagen").floating
       .col-12.col-lg-7.align-self-center
         .cajon.color-acento-contenido.p-4.mb-4
-          p Un esquema de metadatos tiene como objetivo mostrar de forma clara las relaciones entre los componentes del conjunto de metadatos teniendo en cuenta las reglas para el uso y gestión especialmente que tengan relación con la semántica, la sintaxis y la obligación de los valores; estos esquemas facilitan la interoperabilidad asegurando el mantenimiento y buen manejo de los documentos a largo plazo.
+          p Un esquema de metadatos tiene como objetivo mostrar de forma clara las relaciones entre los componentes del conjunto de metadatos teniendo en cuenta las reglas para el uso y gestión, especialmente que tengan relación con la semántica, la sintaxis y la obligación de los valores; estos esquemas facilitan la interoperabilidad asegurando el mantenimiento y buen manejo de los documentos a largo plazo.
           p.mt-3 Según la guía de metadatos (Archivo general de la nación, 2021), para iniciar con este diseño se debe tener en cuenta lo siguiente:
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Actividad 1" :icono="require('@/assets/template/tema-1-20.svg')")
@@ -308,13 +310,13 @@
             ul.lista-ul.mt-3 
               li 
                 i.fas.fa-angle-right
-                | Determinar los tipos de información a los cuales se va a incorporar los metadatos
+                | Determinar los tipos de información a los cuales se va a incorporar los metadatos.
               li 
                 i.fas.fa-angle-right
                 | Establecer los sistemas de gestión y las aplicaciones específicas de la gestión de documentos.
               li 
                 i.fas.fa-angle-right
-                | Agregar al esquema de metadatos iniciativas de interoperabilidad e integración que se esté realizando en la entidad.
+                | Agregar al esquema de metadatos iniciativas de interoperabilidad e integración que se estén realizando en la entidad.
               li 
                 i.fas.fa-angle-right
                 | Establecer los riesgos que se mitigarán con la implementación del esquema de metadatos en la gestión de documentos.
@@ -332,16 +334,13 @@
                 | Familia de normas ISO 23081.
               li 
                 i.fas.fa-angle-right
-                | Australian Recordkeeping Metadata Schema (RKMS).
+                | <i>Australian Recordkeeping Metadata Schema (RKMS).</i>
               li 
                 i.fas.fa-angle-right
-                | Australian Government Recordkeeping Metadata Standard (AGRkMS).
+                | <i>Australian Government Recordkeeping Metadata Standard (AGRkMS).</i>
               li 
                 i.fas.fa-angle-right
-                | Esquema de metadatos para la gestión del documento electrónico (e- EMGDE).
-              li 
-                i.fas.fa-angle-right
-                | Desarrollado por la Dirección General de Modernización Administrativa del Ministerio de Hacienda y Administraciones Públicas de España.
+                | Esquema de metadatos para la gestión del documento electrónico (e-EMGDE) desarrollado por la Dirección General de Modernización Administrativa del Ministerio de Hacienda y Administraciones Públicas de España.
 
           .col-5.d-none.d-lg-flex.align-self-center
             figure
@@ -422,7 +421,7 @@
                 | Herencia: el elemento tiempo de retención de una agrupación Documento Simple, lo hereda de una agrupación Serie.
               li 
                 i.fas.fa-angle-right
-                | Interdependencia: debe documentar en qué casos, elementos dependen de otros, a su vez indicar que valor deben contener para que el elemento dependiente se pueda usar.
+                | Interdependencia: debe documentar en qué casos, elementos dependen de otros, a su vez indicar qué valor deben contener para que el elemento dependiente se pueda usar.
           .col-5.d-none.d-lg-flex.align-self-center
             figure
               img(src="@/assets/template/tema-1-39.png", alt="Texto que describa la imagen").floating
@@ -440,7 +439,7 @@
         figure
           img(src='@/assets/template/tema-1-28.png', alt='Texto que describa la imagen').floating
       .col-12.col-lg-8
-        p Los metadatos permiten a una persona localizar y comprender los datos, incluida la información necesaria para determinar qué conjuntos de datos existen en una ubicación geográfica específica, la información necesaria para determinar si un conjunto de datos es adecuado para un propósito específico y la información necesaria para recuperar y obtener un conjunto identificado de datos y la información necesaria para procesarlos y utilizarlos. (Gob.pe)
+        p Los metadatos permiten a una persona localizar y comprender los datos, incluida la información necesaria para determinar qué conjuntos de datos existen en una ubicación geográfica específica, la información necesaria para determinar si un conjunto de datos es adecuado para un propósito específico y la información necesaria para recuperar y obtener un conjunto identificado de datos y la información necesaria para procesarlos y utilizarlos. (Gob.pe).
         p.mt-3 Las razones para la implementación de metadatos o la utilidad de estos, responden a los siguientes aspectos (UNE-ISO 23081-1):
     .row.mt-5
       .col-12.col-md-8.offset-md-2
@@ -455,49 +454,49 @@
             .col-6.col-xl-4.offset-3.offset-xl-4
               figure.px-5
                 img(src='@/assets/template/tema-1-30.svg', alt='Texto que describa la imagen')
-              p.mt-3 Facilitar la migración eficiente y exitosa de documentos electrónicos de un entorno o plataforma informáticos a otro, o cualquier otra posible estrategia de conservación.
+              p.mt-3 Facilitar la comprensión de los documentos.
 
           .row(titulo="")
             .col-6.col-xl-4.offset-3.offset-xl-4
               figure.px-5
                 img(src='@/assets/template/tema-1-31.svg', alt='Texto que describa la imagen')
-              p.mt-3 Facilitar la identificación del entorno tecnológico en que los documentos digitales fueron creados o se incorporaron al sistema y la gestión del entorno tecnológico en el que se han mantenido, de modo que puedan ser reproducidos como documentos auténticos cuando se necesiten.
+              p.mt-3 Contribuir a garantizar la autenticidad, fiabilidad e integridad de los documentos.
           
           .row(titulo="")
             .col-6.col-xl-4.offset-3.offset-xl-4
               figure.px-5
                 img(src='@/assets/template/tema-1-32.svg', alt='Texto que describa la imagen')
-              p.mt-3 Proporcionar vínculos lógicos entre los documentos y su contexto de creación, manteniéndolos de forma estructurada, fiable e inteligible.
-
-          .row(titulo="")
-            .col-6.col-xl-4.offset-3.offset-xl-4
-              figure.px-5
-                img(src='@/assets/template/tema-1-33.svg', alt='Texto que describa la imagen')
-              p.mt-3 Servir de base para una recuperación eficiente.
-          
-          .row(titulo="")
-            .col-6.col-xl-4.offset-3.offset-xl-4
-              figure.px-5
-                img(src='@/assets/template/tema-1-34.svg', alt='Texto que describa la imagen')
-              p.mt-3 Respaldar también las estrategias de interoperabilidad, permitiendo que se incorporen oficialmente al sistema documentos creados en diversos entornos administrativos y técnicos y que se mantengan durante tanto tiempo como sea necesario.
-          
-          .row(titulo="")
-            .col-6.col-xl-4.offset-3.offset-xl-4
-              figure.px-5
-                img(src='@/assets/template/tema-1-35.svg', alt='Texto que describa la imagen')
               p.mt-3 Respaldar la gestión del acceso, privacidad y derechos de propiedad intelectual de cada documento.
 
           .row(titulo="")
             .col-6.col-xl-4.offset-3.offset-xl-4
               figure.px-5
+                img(src='@/assets/template/tema-1-33.svg', alt='Texto que describa la imagen')
+              p.mt-3 Respaldar también las estrategias de interoperabilidad, permitiendo que se incorporen oficialmente al sistema documentos creados en diversos entornos administrativos y técnicos y que se mantengan durante tanto tiempo como sea necesario.
+          
+          .row(titulo="")
+            .col-6.col-xl-4.offset-3.offset-xl-4
+              figure.px-5
+                img(src='@/assets/template/tema-1-34.svg', alt='Texto que describa la imagen')
+              p.mt-3 Servir de base para una recuperación eficiente.
+          
+          .row(titulo="")
+            .col-6.col-xl-4.offset-3.offset-xl-4
+              figure.px-5
+                img(src='@/assets/template/tema-1-35.svg', alt='Texto que describa la imagen')
+              p.mt-3 Proporcionar vínculos lógicos entre los documentos y su contexto de creación, manteniéndolos de forma estructurada, fiable e inteligible.
+
+          .row(titulo="")
+            .col-6.col-xl-4.offset-3.offset-xl-4
+              figure.px-5
                 img(src='@/assets/template/tema-1-36.svg', alt='Texto que describa la imagen')
-              p.mt-3 Contribuir a garantizar la autenticidad, fiabilidad e integridad de los documentos.
+              p.mt-3 Facilitar la identificación del entorno tecnológico en que los documentos digitales fueron creados o se incorporaron al sistema y la gestión del entorno tecnológico en el que se han mantenido, de modo que puedan ser reproducidos como documentos auténticos cuando se necesiten.
 
           .row(titulo="")
             .col-6.col-xl-4.offset-3.offset-xl-4
               figure.px-5
                 img(src='@/assets/template/tema-1-37.svg', alt='Texto que describa la imagen')
-              p.mt-3 Facilitar la comprensión de los documentos.
+              p.mt-3 Facilitar la migración eficiente y exitosa de documentos electrónicos de un entorno o plataforma informáticos a otro, o cualquier otra posible estrategia de conservación.
 
 
 

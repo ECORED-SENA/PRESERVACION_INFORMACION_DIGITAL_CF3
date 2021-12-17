@@ -8,7 +8,7 @@
       h1 Dispositivos de almacenamiento de datos
     figure.mt-4
       img(src='@/assets/template/tema-6-1.png', alt='Texto que describa la imagen')
-    p.mt-5 Son los componentes o elementos que permiten alojar, transmitir o recuperar la información digital. En la actualidad existen una gran variedad de dispositivos de almacenamiento de datos, tanto físicos como virtualizados.
+    p.mt-5 Son los componentes o elementos que permiten alojar, transmitir o recuperar la información digital. En la actualidad existe una gran variedad de dispositivos de almacenamiento de datos, tanto físicos como virtualizados.
     p.mt-3 Año tras año, los dispositivos de almacenamiento vienen mejorando el tipo y utilidad, teniendo en cuenta del desarrollo de las TIC y los requerimientos cada vez más exigentes de los usuarios. A continuación, se mencionan algunos dispositivos de almacenamiento más usados y de popular acceso:
     .row.mt-5
       .col-sm-6.mb-4
@@ -52,8 +52,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-color': `#FF5151`}").d-flex.align-items-center.justify-content-center
               .h4 Google Drive
-            .tarjeta-flip__contenido.p-4.bg-img-5
-              p.py-4 
+            .tarjeta-flip__contenido.p-4.bg-img-5.d-flex.align-items-center.justify-content-center
       .col-sm-6.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -78,6 +77,7 @@
               .h4 One drive
             .tarjeta-flip__contenido.p-4.bg-img-8
               p 
+    p Aunque existen infinidad de ventajas, no garantiza un cien por ciento de efectividad de sus usuarios, por lo anterior se mencionan algunas ventajas de este tipo de almacenamiento, ver tabla 2:
     p.mt-5 
     .row.mt-4
       .col-10.offset-1
@@ -104,16 +104,16 @@
                 img(src="@/assets/template/tema-6-12.svg", alt="Texto que describa la imagen")
           tr
             td.p-3 Minimiza costos.
-            td.p-3 Para su consulta en tiempo real, requiere conexión a Internet.
+            td.p-3 Para su consulta en tiempo real, requiere conexión a internet.
           tr
             td.p-3 Facilita el acceso de la información, en tiempo real y multiusuario. 
-            td.p-3 Dependencia de un tercero (Proveedor de servicios que en muchos casos desde otra nacionalidad).
+            td.p-3 Dependencia de un tercero (proveedor de servicios que en muchos casos es de otra nacionalidad).
           tr
             td.p-3 La seguridad mejora, gracias al desarrollo y fortalecimiento de los proveedores.
             td.p-3 Se modifican continuamente las interfaces de las aplicaciones.
           tr
             td.p-3 No importa la ubicación, desde que tengan acceso a internet.
-            td.p-3 Si las solicitudes tienen alto tráfico, los servidores se pueden sobrecargar. La calidad y velocidad para consultar la información depende de otros factores como el servicio de internet y el hardware o terminal de consulta (computador, dispositivo móvil, etc.)
+            td.p-3 Si las solicitudes tienen alto tráfico, los servidores se pueden sobrecargar. La calidad y velocidad para consultar la información depende de otros factores como el servicio de internet y el <i>hardware</i> o terminal de consulta (computador, dispositivo móvil, etc.).
           tr
             td.p-3 Se optimiza su uso de manera automática.
             td.p-3 
@@ -121,7 +121,7 @@
             td.p-3 No requiere personal capacitado para su acceso.
             td.p-3 
           tr
-            td.p-3 No requiere de ser instalado o actualizado por un equipo de soporte técnico.
+            td.p-3 No requiere ser instalado o actualizado por un equipo de soporte técnico.
             td.p-3 
 
 

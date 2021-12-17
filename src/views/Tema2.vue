@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Técnicas de preservación
+      h1 Pautas para la eliminación de documentos digitales
     figure.mt-5
       img(src='@/assets/template/tema-2-1.png', alt='Texto que describa la imagen')
     p.mt-5 La eliminación de documentos digitales se lleva a cabo cuando el documento termina su ciclo de vida, es decir, que no representa ningún valor para la empresa.
@@ -22,42 +22,42 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-2.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center.d-flex.align-items-center
-              p Revisar y valorar a la documentación del Archivo de Gestión, principal o central, en cumplimiento de lo dispuesto en las TRD y TVD en sus diferentes versiones.
+              p Revisar y valorar a la documentación del Archivo de Gestión, principal o central, en cumplimiento de lo dispuesto en las TRD y TVD en sus diferentes versiones, para disposición final de los documentos.
       .col-8.col-sm-6.offset-2.offset-sm-0.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-3.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center
-              p.py-4 Se debe justificar y argumentar  la eliminación a proceder
+              p.py-4 Se debe justificar y argumentar  la eliminación a proceder.
       .col-8.col-sm-6.offset-2.offset-sm-0.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-4.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center
-              p.py-5  Dejar registro mediante elaboración de  acta de eliminación documental 
+              p.py-5  Dejar registro mediante elaboración de  acta de eliminación documental. 
       .col-8.col-sm-6.offset-2.offset-sm-0.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-5.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center
-              p Gestionar aprobación de la eliminación 
+              p Gestionar aprobación de la eliminación. 
       .col-8.col-sm-6.offset-2.offset-sm-0.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-6.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center
-              p.py-4 Ante el Comité institucional de gestión y desempeño, se debe dejar tratado el punto de eliminación y aprobado. 
+              p.py-4 Ante el Comité Institucional de Gestión y Desempeño, se debe dejar tratado el punto de eliminación y aprobado. 
       .col-8.col-sm-6.offset-2.offset-sm-0.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-7.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center.d-flex.align-items-center
-              p.py-5 Efectuar el evidenciamiento, publicando en la página o portal web de los documentos a eliminar 
+              p.py-5 Efectuar el registro de evidencia, publicando en la página o portal web los documentos a eliminar. 
       .col-8.col-sm-6.offset-2.offset-sm-0.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -78,7 +78,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-10.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center
-              p.py-5 Recibir y almacenar el Certificado de destrucción Documental.
+              p.py-5 Recibir y almacenar el Certificado de Destrucción Documental.
       .col-8.col-sm-6.offset-2.offset-sm-0.mb-4
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -86,7 +86,7 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-2-11.svg')})`}")
             .tarjeta-flip__contenido.p-4.d-flex.align-items-center
               p.py-5 Archivar y garantizar su conservación.
-    figcaption Referencia Nota. MINTIC (2020).
+    figcaption Nota. MINTIC (2020).
 
 
 </template>

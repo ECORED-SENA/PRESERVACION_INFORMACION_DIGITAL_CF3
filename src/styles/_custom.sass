@@ -164,6 +164,28 @@ p
   overflow: hidden
   animation: 3s infinite floating ease-in-out alternate
 
+
+.img-infografica.color-acento-botones .img-infografica__item__dot:before, 
+.img-infografica.color-acento-botones .img-infografica__item__dot:after, 
+.img-infografica.color-acento-botones .img-infografica-b__item__dot:before, 
+.img-infografica.color-acento-botones .img-infografica-b__item__dot:after, 
+.img-infografica-b.color-acento-botones .img-infografica__item__dot:before, 
+.img-infografica-b.color-acento-botones .img-infografica__item__dot:after, 
+.img-infografica-b.color-acento-botones .img-infografica-b__item__dot:before, 
+.img-infografica-b.color-acento-botones .img-infografica-b__item__dot:after
+    background-color: #88E0EF;
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number,
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #592FE640;
+    color: initial;
+
+.tabs-b__tab__title 
+    font-size: 18px !important
+.text-small-2
+  font-size: 1em !important
+
+
   
 // KEY FRAMES
 @keyframes floating 
@@ -200,7 +222,14 @@ p
 // @media (min-width: 1200px)
 //   .mr-xl-2
 //     margin-right: 1.5rem !important
-// @media (max-width: 991px)  
+@media (max-width: 991px) 
+  .banner-principal .tarjeta
+    background-image: url(../assets/curso/fondo-banner-principal-mobile.png) !important
+  .tarjeta-flip__contenido 
+    height: 295px !important
+
+
+
 
 // @media (min-width: 1200px) and (max-width: 1400px)
 
@@ -441,5 +470,6 @@ p
 .bloque-texto-b.color-acento-contenido::before
   background-color: #FFF5E0
 
-
+a
+  color: #12263F !important
 

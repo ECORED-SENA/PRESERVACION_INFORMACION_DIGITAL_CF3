@@ -195,3 +195,11 @@ $tarjeta-avatar-ancho-img: 150px
 
 $color-btn-b-fondo: $color-acento-contenido
 $color-btn-b-texto: $white
+
+@media only screen and (max-width: 600px) 
+  .scroll-x-tabla
+    overflow-x: auto !important;
+  .scroll-x-tabla::-webkit-scrollbar
+    height: 5px;  
+  .scroll-x-tabla::-webkit-scrollbar-thumb 
+    background: #FFD947;
