@@ -11,10 +11,11 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Emparejamiento entre término y definición 
+          p.fw-bold.mt-5 Reconocer los conceptos y relación que existe entre los diferentes procedimientos de la documentación digital.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Reconocer los conceptos y relación que existe entre los diferentes procedimientos de la documentación digital.
+              p.fw-bold.mb-0 Arrastrar y soltar.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividadlkm.html')" target="_blank")
                 span Realizar

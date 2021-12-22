@@ -35,7 +35,7 @@
             p Migración a un nuevo <i>software</i>.
         
           div(x="90%" y="53%" tooltip="Fusión de dos sistemas paralelos en uno solo, cuando una empresa absorbe a otra o cuando dos negocios se fusionan." numero="")
-            p Fusión de dos sistemas paralelos en uno solo, cuando una empresa absorbe a otra o cuando dos negocios se fusionan
+            p Fusión de dos sistemas paralelos en uno solo, cuando una empresa absorbe a otra o cuando dos negocios se fusionan.
 
     .h4.mt-5 Pasos para la migración de datos 
     p.mt-5 Realizar una migración de datos, de una manera exitosa, requiere tener en cuenta los siguientes pasos:

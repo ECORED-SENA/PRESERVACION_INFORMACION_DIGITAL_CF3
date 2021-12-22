@@ -20,8 +20,8 @@
             table
               thead
                 tr.text-center
-                  th.py-3(colspan="2") Calidad de datos inherentes
-                  th Calidad de datos dependiente del sistema
+                  th.py-3.f-18(colspan="2") Calidad de datos inherentes
+                  th.f-18 Calidad de datos dependiente del sistema
               tbody
                 tr
                   td.p-0.position-relative 
@@ -57,7 +57,7 @@
                               .h4.text-small CONFORMIDAD
                           .col-12.mt-3
                             .row.bg-morado.py-3.text-center.rounded-15
-                              .h4.text-small CONFIDENCIALIDAD
+                              .h4.text-small-cus CONFIDENCIALIDAD
                           .col-12.mt-3
                             .row.bg-morado.py-3.text-center.rounded-15
                               .h4.text-small EFICIENCIA
@@ -71,7 +71,7 @@
                               .h4.text-small TRAZABILIDAD
                           .col-12.mt-3
                             .row.bg-morado.py-3.text-center.rounded-15
-                              .h4.text-small COMPRENSIBILIDAD
+                              .h4.text-small-cus COMPRENSIBILIDAD
                   td.p-0.position-relative 
                     .row.py-4.text-white.mx-0
                       .col-9.offset-2
@@ -96,10 +96,10 @@
             ul.lista-ul
               li 
                 i.fas.fa-angle-right
-                | Valores de dominios de datos y posibles restricciones (p. e.j., reglas de negocio gobernando la calidad requerida por las características en una aplicación dada).
+                | Valores de dominios de datos y posibles restricciones (p. ej., reglas de negocio gobernando la calidad requerida por las características en una aplicación dada).
               li 
                 i.fas.fa-angle-right
-                | Relaciones entre valores de datos (p. e.j., consistencia).
+                | Relaciones entre valores de datos (p. ej., consistencia).
               li 
                 i.fas.fa-angle-right
                 | Metadatos.
@@ -111,7 +111,7 @@
           .col-12.col-lg-7
             .h3 Calidad de datos dependiente del sistema
             p.mt-4 Según la norma ISO 25000, se refiere al grado con el que la calidad de datos es alcanzada y preservada a través de un sistema informático cuando los datos son utilizados bajo condiciones específicas.
-            p.mt-3 Desde el punto de vista dependiente del sistema, la calidad de datos depende del dominio tecnológico en el que los datos se utilizan, y se alcanza mediante las capacidades de los componentes del sistema informático tales como: dispositivos <i>hardware</i> (p. e.j., respaldo <i>software</i> para alcanzar la recuperabilidad), y otro <i>software</i> (p. e.j., herramientas de migración para alcanzar la portabilidad).
+            p.mt-3 Desde el punto de vista dependiente del sistema, la calidad de datos depende del dominio tecnológico en el que los datos se utilizan, y se alcanza mediante las capacidades de los componentes del sistema informático tales como: dispositivos <i>hardware</i> (p. ej., respaldo <i>software</i> para alcanzar la recuperabilidad), y otro <i>software</i> (p. ej., herramientas de migración para alcanzar la portabilidad).
           .col-5.d-none.d-lg-flex.align-self-center
             figure
               img(src="@/assets/template/tema-4-5.png", alt="Texto que describa la imagen")

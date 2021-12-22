@@ -14,7 +14,7 @@
         .cajon.color-acento-contenido.p-4.mb-4
           p Como se ha venido mencionando, la información es un activo primordial, para las personas, organizaciones, colectivos y naciones, pero no solo es importante acceder a la información, también lo es, el poder mantener esta con las características auténticas y originales, pero a nivel de información digital estas características deben darse con procesos adicionales, como renovación, actualización y/o migración de manera periódica.
           p.mt-3 Por lo anterior, las organizaciones tanto públicas como privadas, deben acogerse a ciertas normativas, estándares, como también deben realizar implementaciones en procedimientos e infraestructura que garantizarán no sólo la calidad y seguridad sino la vigencia a largo plazo de los datos, de manera fiable, íntegra y auténtica.
-          p.mt-3 Conservar implica que la información debe pasar por una caracterización donde la que deja de ser necesaria en la gestión del día a día, debe ser almacenada adecuadamente teniendo en cuenta la gestión del riesgo
+          p.mt-3 Conservar implica que la información debe pasar por una caracterización donde la que deja de ser necesaria en la gestión del día a día, debe ser almacenada adecuadamente teniendo en cuenta la gestión del riesgo.
     p.mt-5 Las siguientes son algunas recomendaciones a la hora de tomar la decisión de conservar documentos digitales:
     .row.mt-5
       .col-12.col-md-8.offset-md-2
@@ -76,9 +76,8 @@
             .col-8.offset-2
               p.mt-3 Designar personal capacitado para desempeñar los roles o funciones que exija el proceso de conservación y asegurar su continua actualización.
     
-    p A continuación, se exponen algunos conceptos básicos, relacionados con la conservación digital de archivos:
-
-    p.mt-4 Para ampliar la información, es importante consultar el siguiente decreto 1080 del 2015 en el Artículo 2.8.2.7.2. donde se encuentran las definiciones de cada una de las características del documento electrónico de archivo. 
+   
+    p.mt-4 Para mayor consulta sobre preservación de información digital, se recomienda ver el siguiente manual:
     .row.mt-5
       .col-10.offset-1
         .tarjeta.bg-morado-claro.p-3.mb-5
@@ -89,7 +88,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1  Manual: Fundamentos de la preservación digital a largo plazo
-                  p.text-small Lo invitamos a leer y comprender el siguiente enlace, donde encontrará los temas anteriormente mencionados, con mayor detalle de los procedimientos requerido.
+                  p.text-small Lo invitamos a leer y comprender el siguiente enlace, donde encontrará los temas anteriormente mencionados, con mayor detalle de los procedimientos requeridos.
                 .col-sm-auto
                   a.boton.color-secundario.texto-blanco(:href="obtenerLink('/downloads/Manual_Fundamentos_De_Preservacion_Digital.pdf')" target="_blank")
                     span Descargar
@@ -120,7 +119,7 @@
         p Acciones conducidas a ejecutar los procedimientos. Las prácticas se miden mediante los registros (documentación) u otra evidencia que registre las acciones completadas. (NTC-ISO16363:2016).
 
       .row(numero="8" titulo="Programa de Gestión Documental")
-        p Es el conjunto de actividades administrativas y técnicas, pendientes a la planificación, manejo y organización de la documentación producida y recibida por las entidades (Programa de gestión documental. 2014).
+        p Es el conjunto de actividades administrativas y técnicas, tendientes a la planificación, manejo y organización de la documentación producida y recibida por las entidades (Programa de gestión documental. 2014).
 
       .row(numero="9" titulo="Transferencia")
         p Los documentos se pueden guardar en el Administrador de documentos, pero si una organización prefiere mover archivos a otro entorno de almacenamiento por razones de espacio u otras consideraciones.

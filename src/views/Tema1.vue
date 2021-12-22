@@ -246,11 +246,11 @@
         .h4 Autenticidad de los metadatos
         p.mt-4 El fin de acreditar la autenticidad de un documento sin perder su esencia, sin alteraciones o corrupciones con el paso del tiempo, es hablar de autenticidad documental. Es por ello, que este es uno de los componentes que conforman la confianza del documento respecto al (MINTIC, 2021):
         LineaTiempoD.color-secundario.mt-5
-          p.text-small(numero="1" titulo="CONTEXTO") Tiene que ver con la actividad y con la entidad, por cuanto la actividad “per-se” sin un contexto administrativo identificable quedaría incompleta. 
+          p(numero="1" titulo="CONTEXTO") Tiene que ver con la actividad y con la entidad, por cuanto la actividad “per-se” sin un contexto administrativo identificable quedaría incompleta. 
           
-          p.text-small(numero="2" titulo="ESTRUCTURA") Tiene que ver con la forma documental fija o la presentación del contenido, que en gran medida está dada por el <i>software</i> y <i>hardware</i>.
+          p(numero="2" titulo="ESTRUCTURA") Tiene que ver con la forma documental fija o la presentación del contenido, que en gran medida está dada por el <i>software</i> y <i>hardware</i>.
 
-          p.text-small(numero="3" titulo="CONTENIDO") Es la materia del documento. Tiene que ver con el entorno en el cual ha sido creado el documento de acuerdo con el marco jurídico, administrativo, procedimental y documental de la entidad, para lo cual se tendrán en cuenta los metadatos que permitan demostrar su procedencia
+          p(numero="3" titulo="CONTENIDO") Es la materia del documento. Tiene que ver con el entorno en el cual ha sido creado el documento de acuerdo con el marco jurídico, administrativo, procedimental y documental de la entidad, para lo cual se tendrán en cuenta los metadatos que permitan demostrar su procedencia
           
       .col-4.d-none.d-lg-flex.align-self-center
         figure

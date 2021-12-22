@@ -77,7 +77,7 @@
               .h4 One drive
             .tarjeta-flip__contenido.p-4.bg-img-8
               p 
-    p Aunque existen infinidad de ventajas, no garantiza un cien por ciento de efectividad de sus usuarios, por lo anterior se mencionan algunas ventajas de este tipo de almacenamiento, ver tabla 2:
+    p Aunque existen infinidad de ventajas, no garantiza un cien por ciento de efectividad a sus usuarios, por lo anterior se mencionan algunas ventajas y desventajas de este tipo de almacenamiento, ver tabla 2:
     p.mt-5 
     .row.mt-4
       .col-10.offset-1
@@ -186,6 +186,8 @@ export default {
 @media (min-width: 992px)
   .col-sm-6.mb-4
     width: 33% !important
+  .tarjeta-flip__contenido
+    height: 295px
 @media (min-width: 1200px)
   .col-sm-6.mb-4
     width: 24.667% !important

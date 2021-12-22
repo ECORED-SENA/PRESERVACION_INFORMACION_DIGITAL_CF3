@@ -19,11 +19,11 @@
         .indicador--hover(v-if="indicadorTarjetaFlip")
         figure
           img(src='@/assets/template/tema-5-2.png', alt='Texto que describa la imagen')
-        .col-10.position-absolute.right.p-4.border-gris-1.rounded-15.box-shadow.mt-xl-4(style='left:44%; top:-40%; z-index:-1;')
+        .col-10.position-absolute.right.p-4.border-gris-1.rounded-15.box-shadow.mt-xl-4(style='left:50%; top:-40%; z-index:-1;')
           .row.p-3.border-gris-4.rounded-20
             .h4 Fiabilidad
-            p.text-small.mt-2 Es la capacidad del documento para verificar que su contenido tenga una visualización completa, confiable y precisa de las actividades.
-        .col-10.position-absolute.right.p-4.border-gris-1.rounded-15.box-shadow(style='left:41%; top:84%; z-index:-1;')
+            p.text-small-2.mt-2 Es la capacidad del documento para verificar que su contenido tenga una visualización completa, confiable y precisa de las actividades.
+        .col-10.position-absolute.right.p-4.border-gris-1.rounded-15.box-shadow(style='left:50%; top:84%; z-index:-1;')
           .row.p-3.border-gris-4.rounded-20
             .h4 Disponibilidad
             p.text-small-2.mt-2 Es la capacidad presente y futura de que sus metadatos sean inteligibles en el uso diario.
@@ -82,7 +82,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1  Decreto 1080 de 2015
-                  p.text-small Lo invitamos a leer y comprender el siguiente enlace, donde encontrará los temas anteriormente mencionados, con mayor detalle de los procedimientos requerido.
+                  p.text-small Lo invitamos a leer y comprender el siguiente enlace, donde encontrará los temas anteriormente mencionados, con mayor detalle de los procedimientos requeridos.
                 .col-sm-auto
                   a.boton.color-secundario.texto-blanco(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76833" target="_blank")
                     span Enlace web

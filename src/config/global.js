@@ -297,7 +297,7 @@ export default {
         nombre: 'Jhon Jairo Villamizar Mora',
         cargo: 'Experto temático',
         centro:
-          'Centro de la Industria, la Empresa y los Servicios. CIES. - Regional Norte de Santander ',
+          'Centro de la Industria, la Empresa y los Servicios CIES - Regional Norte de Santander ',
       },
       {
         nombre: 'Claudia Milena Hernández Naranjo',
@@ -354,7 +354,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Víctor Raúl Cárdens Cáceres',
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
@@ -368,7 +368,7 @@ export default {
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Lizeth Karina Manchego Suárez',
