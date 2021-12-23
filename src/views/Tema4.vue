@@ -85,7 +85,7 @@
                           .col-12.mt-3
                             .row.bg-naranja-fuerte.py-3.text-center.rounded-15
                               .h4.text-small RECUPERABILIDAD
-      figcaption.mt-3.figcaptionNota Nota. ISO 25000 (2021).
+    figcaption Nota. ISO 25000 (2021).
     p.mt-5 Teniendo en cuenta las características de calidad de datos, estos se clasifican en:
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Calidad de datos inherentes" :icono="require('@/assets/template/tema-4-2.svg')")
