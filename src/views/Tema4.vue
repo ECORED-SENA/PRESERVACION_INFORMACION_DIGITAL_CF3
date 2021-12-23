@@ -16,7 +16,7 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 3
             p.text-small Calidad de datos
-          .tabla-a.color-acento-contenido.mt-5 
+          .tabla-ab.color-acento-contenido.mt-5 
             table
               thead
                 tr.text-center
