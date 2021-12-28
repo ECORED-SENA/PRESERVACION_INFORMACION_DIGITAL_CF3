@@ -107,7 +107,7 @@
         p Es un archivo que la organización opera, que puede formar parte de una organización más amplia, de personas y sistemas, que ha aceptado la responsabilidad de conservar información y mantenerla disponible para una comunidad designada. (NTC-ISO 14721:2018)
 
       .row(numero="4" titulo="Gestión de registros")
-        p Contribuye a la organización en la gestión eficaz de documentos, especialmente en relación con la creación, recepción, mantenimiento, uso y procesamiento de información en forma de registros, que representan las actividades y actividades de la organización.
+        p Contribuye a la organización en la gestión eficaz de documentos, especialmente en relación con la creación, recepción, mantenimiento, uso y procesamiento de información en forma de registros, que representan las actividades de la organización.
 
       .row(numero="5" titulo="Gestión documental")
         p Contribuye a las organizaciones a utilizar su información de manera más eficiente, lo que contribuye a un mayor control sobre la creación, almacenamiento, revisión y distribución de documentos entre los usuarios (incluido el correo electrónico) de acuerdo con la Política de privacidad. Lo mismo ocurre con el control del flujo de archivos.

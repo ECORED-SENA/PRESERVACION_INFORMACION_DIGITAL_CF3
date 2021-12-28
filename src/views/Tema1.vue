@@ -51,7 +51,7 @@
             figure.mt-5.mt-md-4.px-lg-2(style='margin-left:-56%;')
               img(src='@/assets/template/tema-1-3.svg', alt='Texto que describa la imagen')
           .col-9.col-xl-10.py-5
-            p Permitir la trazabilidad o referencia entre los documentos físicos y los nuevos documentos electrónicos en el sistemas de gestión de documentos.
+            p Permitir la trazabilidad o referencia entre los documentos físicos y los nuevos documentos electrónicos en el sistema de gestión de documentos.
     .row.mt-2
       .col-10.col-lg-8.offset-1.offset-lg-2.position-relative.border-gris-4.rounded-15
         .row
